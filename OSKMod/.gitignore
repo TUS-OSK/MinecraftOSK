@@ -13,10 +13,9 @@ hs_err_pid*
 
 # gradle
 .gradle/
-gradle/
-*.gradle
 gradlew
 gradlew.bat
+!gradle-wrapper.jar
 
 # forge
 build/
@@ -29,7 +28,10 @@ MinecraftForge-License.txt
 README.txt
 
 # idea
+.idea
 *.iws
+*.iml
+*.ipr
 
 #other
 eclipse/
